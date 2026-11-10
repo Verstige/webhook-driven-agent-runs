@@ -1,0 +1,19 @@
+{
+  "name": "webhook-driven-agent-runs",
+  "description": "Trigger agent runs from webhooks: subscribe to events, verify the signature, and run an agent against each event.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Trigger agent runs from webhooks: subscribe to events, verify the signature, and run an agent against each event.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "webhook-driven-agent-runs",
+      "source": "./plugins/webhook-driven-agent-runs",
+      "description": "Trigger agent runs from webhooks: subscribe to events, verify the signature, and run an agent against each event."
+    }
+  ]
+}

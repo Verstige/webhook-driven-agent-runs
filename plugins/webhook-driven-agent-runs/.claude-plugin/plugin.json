@@ -1,0 +1,18 @@
+{
+  "name": "webhook-driven-agent-runs",
+  "displayName": "Webhook Driven Agent Runs",
+  "version": "1.0.0",
+  "description": "Trigger agent runs from webhooks: subscribe to events, verify the signature, and run an agent against each event.",
+  "author": {
+    "name": "the maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agent",
+    "webhook driven agent runs"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}
